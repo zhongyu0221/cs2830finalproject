@@ -1,31 +1,23 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 
-    <style>
-    
-        .aboutme.timeline.skills.contactme{
-            padding: 300px;
-            margin:300px;
-        }
-    
-    
-    
-    </style>
     
     <head>
         <meta charset="UTF-8">
-          <link rel="stylesheet" href="css/bootstrap.min.css" rel="stylesheet" >
-         <link href="timeline.css"  rel="stylesheet">
-         <!-- <link href="pace.css" rel="stylesheet" type="text/css">-->
-        <link href="responsice.css" rel="stylesheet">
-        <link href="own.css" >
+          <link href="css/bootstrap.min.css" rel="stylesheet" >
+        <link href="font-awesome-4.6.1/css/font-awesome.min.css" rel="stylesheet">
         
+         <link href="timeline.css"  rel="stylesheet">
+        <link href="responsice.css" rel="stylesheet">
+  
+       
 
     <title> Zhongyu Li' Resume </title>
     </head>
     
 <body>
     
+   
    <!--for text  <button class="btn btn-info">Bootstrap</button>-->
 
     <h1 id="title">Zhongyu Li' Resume </h1>
@@ -50,7 +42,7 @@
                 <div class="col-md-4 col-md-offset-1"> 
                    <!-- <h1>Zhongyu Li</h1>-->
                         <div class="media">
-                            <img class="media-object img-circle img-responsive" src="IMG_4203.JPG" >                    
+                            <img class="media-object img-circle img-responsive" src="123IMG_4203.JPG" >                    
                         </div>
                     <h3><a href="Resume zhongyu li.docx" >My resume</a></h3>
                     
@@ -174,33 +166,33 @@
 <div class="progress progress-striped">
     <div class="progress-bar progress-bar-success" role="progressbar" 
       aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 	
-      style="width: 80%;"> <!--how long the bar goes-->
+      style="width: 70%;"> <!--how long the bar goes-->
       <span class="sr-only">90% 完成（成功）</span>
    </div>
-   <span class="progress-type">  C</span>
+   <span class="progress-type">  Research</span>
 </div>
             
 <div class="progress progress-striped">
    <div class="progress-bar progress-bar-info" role="progressbar"
       aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 	
-      style="width: 30%;">
+      style="width: 60%;">
       <span class="sr-only">30% 完成（信息）</span>
    </div>
-    <span class="progress-type">  HTML</span>
+    <span class="progress-type">  C</span>
 </div>
             
 <div class="progress progress-striped">
    <div class="progress-bar progress-bar-warning" role="progressbar" 
       aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 	
-      style="width: 20%;">
+      style="width: 40%;">
       <span class="sr-only">20% 完成（警告）</span>
    </div>
-    <span class="progress-type">  PHP</span>
+    <span class="progress-type">  HTML</span>
 </div>
             
 <div class="progress progress-striped">
    <div class="progress-bar progress-bar-danger" role="progressbar" 
-      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 	
+      aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" 	
       style="width: 10%;">
       <span class="sr-only">10% 完成（危险）</span>
    </div>
@@ -208,31 +200,24 @@
 </div>
             
             <div class="progress progress-striped">
-   <div class="progress-bar progress-bar-danger" role="progressbar" 
+   <div class="progress-bar progress-bar-info" role="progressbar" 
       aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 	
-      style="width: 10%;">
+      style="width: 60%;">
       <span class="sr-only">10% 完成（危险）</span>
    </div>
-    <span class="progress-type">  Java</span>
+    <span class="progress-type">  Bacterial</span>
 </div>
             
             <div class="progress progress-striped">
-   <div class="progress-bar progress-bar-danger" role="progressbar" 
+   <div class="progress-bar progress-bar-success" role="progressbar" 
       aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 	
-      style="width: 10%;">
+      style="width: 85%;">
       <span class="sr-only">10% 完成（危险）</span>
    </div>
-    <span class="progress-type">  Java</span>
+    <span class="progress-type">  Lab Work</span>
 </div>
             
-            <div class="progress progress-striped">
-   <div class="progress-bar progress-bar-danger" role="progressbar" 
-      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 	
-      style="width: 10%;">
-      <span class="sr-only">10% 完成（危险）</span>
-   </div>
-    <span class="progress-type">  Java</span>
-</div>
+            
         
         </div>
         
@@ -280,7 +265,41 @@
 		</div>
 	</div>
 </form>
+            
+            
+
+    
+    
+    
+   
+  
+          <ul class="social_links">
+              
+
+               <li class=""><i class="fa fa-phone-square"></i>651-353-6750</li>
+              
+               <li class=""><i class="fa fa-envelope"></i>Zhongyu0221@gmail.com</li>
+              
+            <li class=""><a href="https://github.com/zhongyu0221" target="https://github.com/zhongyu0221"><i class="fa fa-github"></i>&nbsp;</a> Github</li><!--target 打开一个新的窗口-->
+            
+            <li class=""><a href="https://www.linkedin.com" target="https://www.linkedin.com"><i class="fa fa-linkedin"></i>&nbsp;</a>Linkedin</li>
+        
+              
+            <li class=""><a href="https://www.facebook.com/zhongyu0221" target ="https://www.facebook.com/zhongyu0221"><i class="fa fa-facebook"></i></a>Facebook</li>
+      
+            <li class=""><a href="https://www.facebook.com/zhongyu0221" target ="https://www.facebook.com/zhongyu0221"><i class="fa fa-weixin"></i></a>zooooooooooe</li>
+      
+            
+              
+        
+              
+          </ul>
     </div>
+            
+        
+    
+  
+    
 </body>
 </html>
     
