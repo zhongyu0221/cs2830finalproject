@@ -9,6 +9,7 @@
         
          <link href="timeline.css"  rel="stylesheet">
         <link href="responsice.css" rel="stylesheet">
+        <link href="css/login.css">
   
        
 
@@ -16,6 +17,58 @@
     </head>
     
 <body>
+    <style>
+        #title{
+            text-align: center;
+            background-color:antiquewhite;
+        }
+        .nav{
+            text-align: center;
+            padding:40px;
+        }
+        
+        .media{
+            
+            width:350px;
+            height:500px;
+        }
+        
+        #aboutme{
+            
+        padding:40px;
+            background-color:antiquewhite;
+        }
+        
+        .info_area{
+        padding:40px;
+        }
+        
+        .info_area h5{
+        font-size: 30px;
+        }
+        
+        #skills{
+            background-color: antiquewhite;
+             padding:40px;
+        }
+        
+        #skills h5{
+            font-size: 30px;
+        }
+        
+        #contactme h5{
+            font-size: 30px;
+        }
+        #contactme {
+             padding:40px;
+        }
+   
+        .social_links
+        {
+            font-size: 15px;
+        }
+    
+    </style>
     
    
    <!--for text  <button class="btn btn-info">Bootstrap</button>-->
@@ -28,6 +81,7 @@
         <li><a href="#timeline" >Time Line</a></li>
         <li><a href="#skills" >Skills</a></li>
         <li><a href="#contactme" >Contact Me</a></li>
+         <li><a href="#login" >Log in</a></li>
     </ul>
     
     
@@ -40,11 +94,11 @@
             <div class=".container"><!--定义一个容器-->
                 <div class = "row">
                 <div class="col-md-4 col-md-offset-1"> 
-                   <!-- <h1>Zhongyu Li</h1>-->
+                  
                         <div class="media">
-                            <img class="media-object img-circle img-responsive" src="123IMG_4203.JPG" >                    
+                            <img class="media-object img-circle img-responsive" src="IMG_4203.JPG" >                    
                         </div>
-                    <h3><a href="Resume zhongyu li.docx" >My resume</a></h3>
+                  <!--  <h3><a href="Resume zhongyu li.docx" >My resume</a></h3>-->
                     
                     </div>
                  <div class="col-md-5 col-md-offset-1" id="summary"> 
@@ -75,22 +129,31 @@
                         <h5>My Story</h5>
                        
                         <!-- s1~s5 为对应右侧 时间点 -->
-                        <p class="desc s1"><em class="count">09</em>Enter Jiangnan University...</p>
-                        <p class="desc s2"><em class="count">10</em>
+                        <p class="desc s1"> Enter Jiangnan University...</p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p class="desc s2">
                             2015 SPRING 2015 FALL Curator's Grant-in-Aid Scholarship
                             2015 Chancellor’s Awards for Excellence in 2015 spring Undergraduate Research and Creative Achievements Forum
                             2014 FALL  2015 SPRING 2015 FALL Dean List (Dean’s High Honor Roll)
                         </p>
-                       
-                        <p class="desc s3"><em class="count">12</em>
+                       <p></p>
+                        <p></p>
+                        <p class="desc s3">
                             Working alongside graduated students
                             Rapid detection of tuberculosis(TB) mycobacterial in clinical samples
                             Demonstrate Electrochemical Impedance Spectroscopy based detection methodology to reduce the time-to-detection(TTD). 
                             Preparing bacterial media of solid agar and broth solutions
                             Ensured sterile conditions by autoclaving
                             Independently followed instructions using various equipment 
-</p>
-                        <p class="desc s4"><em class="count">13</em>
+</p>                <p></p>
+                        <p></p>
+                       
+                        <p class="desc s4">
                             community-based non-profit program
                             Help local children to improve their struggling literacy and mathematics skills
 </p>
@@ -101,7 +164,7 @@
 
                     <!--right-->
                     <div class="info_area info_right info_timeline">
-                        <h5><i aria-hidden="true" data-icon="&#x7d;"></i>Time Line</h5>
+                        <h5>Time Line</h5>
                         <ul>
                             <li class="clearfix top" id="s5">
                                 <!--list样式-->
@@ -276,26 +339,44 @@
           <ul class="social_links">
               
 
-               <li class=""><i class="fa fa-phone-square"></i>651-353-6750</li>
+               <li class=""><i class="fa fa-phone-square"></i>  651-353-6750</li>
               
-               <li class=""><i class="fa fa-envelope"></i>Zhongyu0221@gmail.com</li>
+               <li class=""><i class="fa fa-envelope"></i>  Zhongyu0221@gmail.com</li>
               
-            <li class=""><a href="https://github.com/zhongyu0221" target="https://github.com/zhongyu0221"><i class="fa fa-github"></i>&nbsp;</a> Github</li><!--target 打开一个新的窗口-->
+            <li class=""><a href="https://github.com/zhongyu0221" target="https://github.com/zhongyu0221"><i class="fa fa-github"></i>&nbsp;</a>  Github</li><!--target 打开一个新的窗口-->
             
-            <li class=""><a href="https://www.linkedin.com" target="https://www.linkedin.com"><i class="fa fa-linkedin"></i>&nbsp;</a>Linkedin</li>
+            <li class=""><a href="https://www.linkedin.com" target="https://www.linkedin.com"><i class="fa fa-linkedin"></i>&nbsp;</a>  Linkedin</li>
         
               
-            <li class=""><a href="https://www.facebook.com/zhongyu0221" target ="https://www.facebook.com/zhongyu0221"><i class="fa fa-facebook"></i></a>Facebook</li>
+            <li class=""><a href="https://www.facebook.com/zhongyu0221" target ="https://www.facebook.com/zhongyu0221"><i class="fa fa-facebook"></i></a>  Facebook</li>
       
-            <li class=""><a href="https://www.facebook.com/zhongyu0221" target ="https://www.facebook.com/zhongyu0221"><i class="fa fa-weixin"></i></a>zooooooooooe</li>
-      
-            
-              
-        
+            <li class=""><a href="https://www.facebook.com/zhongyu0221" target ="https://www.facebook.com/zhongyu0221"><i class="fa fa-weixin"></i></a>  zooooooooooe</li>
+
               
           </ul>
     </div>
             
+    <div class="login">
+        
+    <div class="container">
+	<div class="login-container">
+            <div id="output"></div>
+            <div class="avatar"></div>
+            <div class="form-box">
+                <form action="" method="">
+                    <input name="user" type="text" placeholder="username">
+                    <input type="password" placeholder="password">
+                    <button class="btn btn-info btn-block login" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+        
+</div>
+    
+    
+    
+    
+    </div>
         
     
   
