@@ -6,9 +6,10 @@
         <meta charset="UTF-8">
           <link href="css/bootstrap.min.css" rel="stylesheet" >
         <link href="font-awesome-4.6.1/css/font-awesome.min.css" rel="stylesheet">
+         <link href="css/timeline.css"  rel="stylesheet">
+        <link href="css/responsice.css" rel="stylesheet">
+        <link href="css/login.css" rel="stylesheet">
         
-         <link href="timeline.css"  rel="stylesheet">
-        <link href="responsice.css" rel="stylesheet">
   
        
 
@@ -16,35 +17,119 @@
     </head>
     
 <body>
+    <style>
+        #header{
+             background-color:#EAFAF1;
+        }
+        
+        .breadcrumb
+        {
+            font-size: 20px;
+            color:white;
+           
+            text-align: center;
+        }
+        #title{
+            text-align: center;
+           
+            
+        }
+        .nav{
+            text-align: center;
+            padding:40px;
+        }
+        
+        .media{
+            
+            width:350px;
+            height:500px;
+        }
+        
+        #aboutme{
+            
+        padding:40px;
+            background-color:#D5F5E3;
+        }
+        
+        #timeline{
+        padding:40px;
+            background-color:#ABEEC6;
+        }
+        
+        .info_area h5{
+        font-size: 30px;
+        }
+        
+        #skills{
+            background-color: #82E0AA;
+             padding:40px;
+        }
+        
+        #skills h5{
+            font-size: 30px;
+        }
+        
+        #contactme h5{
+            font-size: 30px;
+        }
+        #contactme {
+            background-color:#58d68d;
+             padding:40px;
+        }
+   
+        .social_links
+        {
+            background-color:#2ecc71;
+            font-size: 20px;
+            color:gray;
+        }
+        
+        
+        #loginarea h5{
+            font-size:30px;
+            
+        }
+        
+        #loginarea  {
+        padding: 40px;
+            background-color:#28b463;
+		
+	}
+	   #stage {
+		border: 1px solid #ccc;
+		font-size: 20pt;
+    
+    </style>
     
    
-   <!--for text  <button class="btn btn-info">Bootstrap</button>-->
+<div id="header">
 
     <h1 id="title">Zhongyu Li' Resume </h1>
     
     <!--header section-->
-    <ul class="nav nav-pills">
+  <ol class="breadcrumb">
         <li class="active"><a href="#aboutme" >About Me</a></li>
         <li><a href="#timeline" >Time Line</a></li>
         <li><a href="#skills" >Skills</a></li>
         <li><a href="#contactme" >Contact Me</a></li>
-    </ul>
+         <li><a href="#login" >Log in</a></li>
+    </ol>
     
-    
+    </div>
       <!--header section-->
     
     
     
     <!--aboutme section-->
         <div id="aboutme">
-            <div class=".container"><!--定义一个容器-->
+            <div class="container"><!--定义一个容器-->
                 <div class = "row">
                 <div class="col-md-4 col-md-offset-1"> 
-                   <!-- <h1>Zhongyu Li</h1>-->
+                  
                         <div class="media">
-                            <img class="media-object img-circle img-responsive" src="123IMG_4203.JPG" >                    
+                            <img class="media-object img-circle img-responsive" src="IMG_4203.JPG" >                    
                         </div>
-                    <h3><a href="Resume zhongyu li.docx" >My resume</a></h3>
+                  <!--  <h3><a href="Resume zhongyu li.docx" >My resume</a></h3>-->
                     
                     </div>
                  <div class="col-md-5 col-md-offset-1" id="summary"> 
@@ -75,22 +160,31 @@
                         <h5>My Story</h5>
                        
                         <!-- s1~s5 为对应右侧 时间点 -->
-                        <p class="desc s1"><em class="count">09</em>Enter Jiangnan University...</p>
-                        <p class="desc s2"><em class="count">10</em>
+                        <p class="desc s1"> Enter Jiangnan University...</p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p class="desc s2">
                             2015 SPRING 2015 FALL Curator's Grant-in-Aid Scholarship
                             2015 Chancellor’s Awards for Excellence in 2015 spring Undergraduate Research and Creative Achievements Forum
                             2014 FALL  2015 SPRING 2015 FALL Dean List (Dean’s High Honor Roll)
                         </p>
-                       
-                        <p class="desc s3"><em class="count">12</em>
+                       <p></p>
+                        <p></p>
+                        <p class="desc s3">
                             Working alongside graduated students
                             Rapid detection of tuberculosis(TB) mycobacterial in clinical samples
                             Demonstrate Electrochemical Impedance Spectroscopy based detection methodology to reduce the time-to-detection(TTD). 
                             Preparing bacterial media of solid agar and broth solutions
                             Ensured sterile conditions by autoclaving
                             Independently followed instructions using various equipment 
-</p>
-                        <p class="desc s4"><em class="count">13</em>
+</p>                <p></p>
+                        <p></p>
+                       
+                        <p class="desc s4">
                             community-based non-profit program
                             Help local children to improve their struggling literacy and mathematics skills
 </p>
@@ -101,7 +195,7 @@
 
                     <!--right-->
                     <div class="info_area info_right info_timeline">
-                        <h5><i aria-hidden="true" data-icon="&#x7d;"></i>Time Line</h5>
+                        <h5>Time Line</h5>
                         <ul>
                             <li class="clearfix top" id="s5">
                                 <!--list样式-->
@@ -227,7 +321,7 @@
     <!--contactme section-->
         <div id="contactme">
     
-      <!--contactme section-->
+
     <form class="form-horizontal" role="form" method="post" action="index.php">
         <h5>Contact me</h5>
 	<div class="form-group">
@@ -275,32 +369,95 @@
   
           <ul class="social_links">
               
+<p></p>
+<p></p>
+               <li class=""><i class="fa fa-phone-square"></i>  651-353-6750</li>
+              
+               <li class=""><i class="fa fa-envelope"></i>  Zhongyu0221@gmail.com</li>
+              
+            <li class=""><a href="https://github.com/zhongyu0221" target="https://github.com/zhongyu0221"><i class="fa fa-github"></i>&nbsp;</a>    Github</li><!--target 打开一个新的窗口-->
+            
+            <li class=""><a href="https://www.linkedin.com" target="https://www.linkedin.com"><i class="fa fa-linkedin"></i>&nbsp;</a>  Linkedin</li>
+        
+              
+            <li class=""><a href="https://www.facebook.com/zhongyu0221" target ="https://www.facebook.com/zhongyu0221"><i class="fa fa-facebook"></i></a>   Facebook</li>
+      
+            <li class=""><a href="https://www.facebook.com/zhongyu0221" target ="https://www.facebook.com/zhongyu0221"><i class="fa fa-weixin"></i></a> zooooooooooe</li>
 
-               <li class=""><i class="fa fa-phone-square"></i>651-353-6750</li>
-              
-               <li class=""><i class="fa fa-envelope"></i>Zhongyu0221@gmail.com</li>
-              
-            <li class=""><a href="https://github.com/zhongyu0221" target="https://github.com/zhongyu0221"><i class="fa fa-github"></i>&nbsp;</a> Github</li><!--target 打开一个新的窗口-->
-            
-            <li class=""><a href="https://www.linkedin.com" target="https://www.linkedin.com"><i class="fa fa-linkedin"></i>&nbsp;</a>Linkedin</li>
-        
-              
-            <li class=""><a href="https://www.facebook.com/zhongyu0221" target ="https://www.facebook.com/zhongyu0221"><i class="fa fa-facebook"></i></a>Facebook</li>
-      
-            <li class=""><a href="https://www.facebook.com/zhongyu0221" target ="https://www.facebook.com/zhongyu0221"><i class="fa fa-weixin"></i></a>zooooooooooe</li>
-      
-            
-              
-        
               
           </ul>
     </div>
             
-        
     
-  
+    <!--log in section-->
+    <div id="loginarea">
+        
+    <h5>Log in</h5>
+        
+             
+	<div id="stage"></div>
+        
+        
+	<input type="text" id="username">
+	<input type="password" id="password">
+	<button id="login">Login</button>
+	<button id="logout">Logout</button>
+	<button id="get">Get Content</button>
+        
+ 
+</div>
+
+        
+	<script src="js/jquery-1.10.2.min.js"></script>
+        
+	<script>
+	$(function(){
+		$('#login').click(function(){
+			$.post('js/process.php', 
+			{
+				action: 'login',
+				username: $('#username').val(),
+				password: $('#password').val()
+			},
+                   
+			function(data){
+				$('#stage').html(data);
+			});
+		});
+        
+        
+		$('#logout').click(function(){
+			$.post('js/process.php',
+			{
+				action: 'logout'
+			},
+			function(data){
+				$('#stage').html(data);
+			});
+		});
+        
+        
+		$('#get').click(function(){
+			$.post('js/process.php',
+			{
+				action: 'get'
+			},
+			function(data){
+				$('#stage').html(data);
+			});
+		});
+	});
+	</script>
+
+       
+	
+<!--log in section-->
     
 </body>
+    
+    
+    
+    
 </html>
     
 
