@@ -10,7 +10,6 @@
         <link href="css/responsice.css" rel="stylesheet">
         <link href="css/login.css" rel="stylesheet">
         
-  
        
 
     <title> Zhongyu Li' Resume </title>
@@ -19,16 +18,19 @@
 <body>
     <style>
         #header{
-             background-color:#EAFAF1;
+
+            color:white;
+            background-color: black;
+            z-index: 1000;
         }
         
         .breadcrumb
         {
-            font-size: 20px;
-            color:white;
            
+            font-size: 20px;
             text-align: center;
         }
+        
         #title{
             text-align: center;
            
@@ -46,14 +48,15 @@
         }
         
         #aboutme{
+            position:relative;
+            padding:40px;
             
-        padding:40px;
-            background-color:#D5F5E3;
         }
         
         #timeline{
         padding:40px;
-            background-color:#ABEEC6;
+            font-size: 30px;
+            
         }
         
         .info_area h5{
@@ -61,7 +64,7 @@
         }
         
         #skills{
-            background-color: #82E0AA;
+           
              padding:40px;
         }
         
@@ -73,13 +76,13 @@
             font-size: 30px;
         }
         #contactme {
-            background-color:#58d68d;
+           
              padding:40px;
         }
    
         .social_links
         {
-            background-color:#2ecc71;
+            
             font-size: 20px;
             color:gray;
         }
@@ -92,36 +95,103 @@
         
         #loginarea  {
         padding: 40px;
-            background-color:#28b463;
+           
 		
 	}
 	   #stage {
 		border: 1px solid #ccc;
 		font-size: 20pt;
-    
+        }
+
+#mainform{
+width:960px;
+padding:40px;
+border-radius:2px;
+font-size:20px;
+font-weight:bold;
+
+
+}
+        
+h3{
+text-align:center;
+font-size:20px;
+}
+        
+input{
+width:100%;
+height:35px;
+margin-top:5px;
+border:1px solid #999;
+border-radius:3px;
+padding:5px;
+}
+        
+input[type=button]{
+background-color:#123456;
+border:1px solid white;
+font-family: 'Fauna One', serif;
+font-Weight:bold;
+font-size:18px;
+color:white;
+}
+        
+textarea{
+width:100%;
+height:80px;
+margin-top:5px;
+border-radius:3px;
+padding:5px;
+resize:none;
+}
+span{
+color:red
+}
+#note{
+color:black;
+font-Weight:400;
+}
+        
+#returnmessage{
+font-size:14px;
+color:green;
+text-align:center;
+}
+           
+           
     </style>
     
    
-<div id="header">
+    
+ 
+    
+    
+    
+    
+    
+<header id="header">
 
     <h1 id="title">Zhongyu Li' Resume </h1>
     
     <!--header section-->
-  <ol class="breadcrumb">
+    <div id="headerbar">
+        <div class="navbar navbar-fixed-top">
+        <ol class="breadcrumb ">
         <li class="active"><a href="#aboutme" >About Me</a></li>
         <li><a href="#timeline" >Time Line</a></li>
         <li><a href="#skills" >Skills</a></li>
         <li><a href="#contactme" >Contact Me</a></li>
          <li><a href="#login" >Log in</a></li>
-    </ol>
-    
+        </ol>
     </div>
+    </div>
+    </header>
       <!--header section-->
     
     
     
     <!--aboutme section-->
-        <div id="aboutme">
+        <section id="aboutme">
             <div class="container"><!--定义一个容器-->
                 <div class = "row">
                 <div class="col-md-4 col-md-offset-1"> 
@@ -143,7 +213,7 @@
                      </div>
                     </div>
         </div>
-    </div>
+    </section>
        <!--aboutme section-->
     
     
@@ -151,7 +221,7 @@
     
     
                       <!--timeline section-->
-<div id="timeline">
+<section id="timeline">
                 <div class="information clearfix">
 
                     <!--left-->
@@ -235,7 +305,7 @@
                                 <!--内容-->
                                 <div class="con">
                                     <h3>A Way With Words And Numbers</h3>
-                                    <p>Tuto</p>
+                                    <p>Tutor</p>
                                     <p class="desc">2014.1 - 2015.1</p>
                                 </div>
                             </li>
@@ -243,7 +313,7 @@
                         </ul>
                     </div>
     </div>
-    </div>
+    </section>
                      
          <!--timeline section-->
     
@@ -254,7 +324,8 @@
     
      <!--skills section-->
         
-        <div id= "skills">
+        <section id= "skills">
+            
             <h5>My Skills</h5>
             
 <div class="progress progress-striped">
@@ -313,52 +384,37 @@
             
             
         
-        </div>
+    </section>
         
         <!--skills section-->
     
         
     <!--contactme section-->
-        <div id="contactme">
-    
+        <section id="contactme">
 
-    <form class="form-horizontal" role="form" method="post" action="index.php">
+  
         <h5>Contact me</h5>
-	<div class="form-group">
-		<label for="name" class="col-sm-2 control-label">Name</label>
-		<div class="col-sm-10">
-			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="email" class="col-sm-2 control-label">Email</label>
-		<div class="col-sm-10">
-			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="message" class="col-sm-2 control-label">Message</label>
-		<div class="col-sm-10">
-			<textarea class="form-control" rows="4" name="message"></textarea>
-		</div>
-	</div>
-	<!--<div class="form-group">
-		<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-		<div class="col-sm-10">
-			<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-		</div>
-	</div>-->
-	<div class="form-group">
-		<div class="col-sm-10 col-sm-offset-2">
-			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-		</div>
-	</div>
-	<div class="form-group">
-		<div class="col-sm-10 col-sm-offset-2">
-			<! Will be used to display an alert to the user>
-		</div>
-	</div>
-</form>
+            
+	<div id="mainform">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/contact.js"></script>
+        
+<p id="returnmessage"></p>
+        
+<label>Name: <span>*</span></label>       
+<input type="text" id="name" placeholder="Name"/>
+<label>Email: <span>*</span></label>
+<input type="text" id="email" placeholder="Email"/>
+<label>Contact No: <span>*</span></label>
+<input type="text" id="contact" placeholder="10 digit Mobile no."/>
+<label>Message:</label>
+<textarea id="message" placeholder="Message......."></textarea>
+        
+<input type="button" id="submit" value="Send Message"/>
+
+</div>
+	
+
             
             
 
@@ -386,11 +442,10 @@
 
               
           </ul>
-    </div>
-            
+    </section> 
     
     <!--log in section-->
-    <div id="loginarea">
+    <section id="loginarea">
         
     <h5>Log in</h5>
         
@@ -398,16 +453,16 @@
 	<div id="stage"></div>
         
         
-	<input type="text" id="username">
-	<input type="password" id="password">
+	<input type="text" id="username" placeholder="User name...">
+	<input type="password" id="password" placeholder="Password...">
 	<button id="login">Login</button>
 	<button id="logout">Logout</button>
 	<button id="get">Get Content</button>
         
  
-</div>
-
-        
+    </section>
+    
+    
 	<script src="js/jquery-1.10.2.min.js"></script>
         
 	<script>
@@ -450,7 +505,7 @@
 	</script>
 
        
-	
+
 <!--log in section-->
     
 </body>
