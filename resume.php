@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="zh-cn">
 
     
@@ -9,6 +10,7 @@
          <link href="css/timeline.css"  rel="stylesheet">
         <link href="css/responsice.css" rel="stylesheet">
         <link href="css/login.css" rel="stylesheet">
+         <link href="css/style.css" rel="stylesheet" >
         
        
 
@@ -16,159 +18,8 @@
     </head>
     
 <body>
-    <style>
-        #header{
-
-            color:white;
-            background-color: black;
-            z-index: 1000;
-        }
-        
-        .breadcrumb
-        {
-           
-            font-size: 20px;
-            text-align: center;
-        }
-        
-        #title{
-            text-align: center;
-           
-            
-        }
-        .nav{
-            text-align: center;
-            padding:40px;
-        }
-        
-        .media{
-            
-            width:350px;
-            height:500px;
-        }
-        
-        #aboutme{
-            position:relative;
-            padding:40px;
-            
-        }
-        
-        #timeline{
-        padding:40px;
-            font-size: 30px;
-            
-        }
-        
-        .info_area h5{
-        font-size: 30px;
-        }
-        
-        #skills{
-           
-             padding:40px;
-        }
-        
-        #skills h5{
-            font-size: 30px;
-        }
-        
-        #contactme h5{
-            font-size: 30px;
-        }
-        #contactme {
-           
-             padding:40px;
-        }
-   
-        .social_links
-        {
-            
-            font-size: 20px;
-            color:gray;
-        }
-        
-        
-        #loginarea h5{
-            font-size:30px;
-            
-        }
-        
-        #loginarea  {
-        padding: 40px;
-           
-		
-	}
-	   #stage {
-		border: 1px solid #ccc;
-		font-size: 20pt;
-        }
-
-#mainform{
-width:960px;
-padding:40px;
-border-radius:2px;
-font-size:20px;
-font-weight:bold;
-
-
-}
-        
-h3{
-text-align:center;
-font-size:20px;
-}
-        
-input{
-width:100%;
-height:35px;
-margin-top:5px;
-border:1px solid #999;
-border-radius:3px;
-padding:5px;
-}
-        
-input[type=button]{
-background-color:#123456;
-border:1px solid white;
-font-family: 'Fauna One', serif;
-font-Weight:bold;
-font-size:18px;
-color:white;
-}
-        
-textarea{
-width:100%;
-height:80px;
-margin-top:5px;
-border-radius:3px;
-padding:5px;
-resize:none;
-}
-span{
-color:red
-}
-#note{
-color:black;
-font-Weight:400;
-}
-        
-#returnmessage{
-font-size:14px;
-color:green;
-text-align:center;
-}
-           
-           
-    </style>
-    
-   
     
  
-    
-    
-    
-    
-    
 <header id="header">
 
     <h1 id="title">Zhongyu Li' Resume </h1>
@@ -179,6 +30,7 @@ text-align:center;
         <ol class="breadcrumb ">
         <li class="active"><a href="#aboutme" >About Me</a></li>
         <li><a href="#timeline" >Time Line</a></li>
+            <li><a href="#research" >Research</a></li>
         <li><a href="#skills" >Skills</a></li>
         <li><a href="#contactme" >Contact Me</a></li>
          <li><a href="#login" >Log in</a></li>
@@ -197,7 +49,7 @@ text-align:center;
                 <div class="col-md-4 col-md-offset-1"> 
                   
                         <div class="media">
-                            <img class="media-object img-circle img-responsive" src="IMG_4203.JPG" >                    
+                            <img class="media-object img-responsive" src="IMG_4203.JPG" >                    
                         </div>
                   <!--  <h3><a href="Resume zhongyu li.docx" >My resume</a></h3>-->
                     
@@ -318,7 +170,38 @@ text-align:center;
          <!--timeline section-->
     
     
+     <!--research section-->
+     <section id="research">
+           <h5>My Research</h5>
+         
+            <div class="container"><!--定义一个容器-->
+                <div class = "row">
+                
+                 <div class="col-md-6"> 
+                    <p>Among infectious diseases, tuberculosis (TB) is the second leading cause of death worldwide. The silver lining is that provided it is detected early, TB is treatable. Hence, there is significant interest in rapid detection of TB mycobacteria in clinical samples. </p>
+                     <p>The most common diagnostic technique for detection of TB is culture-based detection. Though this method is cheap and reliable, they typically require 7-56 days to yield results since Mycobacterium species are extremely slow growing organisms (doubling time of ~ 24 hrs vs. ~20 min for E. coli). Here, we demonstrate an Electrochemical Impedance Spectroscopy based detection methodology to reduce the time-to-detection (TTD). </p>
+                     <p>In vitro TTD study was done on Mycobacterium bovis(M. bovis) (a non-infectious analog for M. tuberculosis). M bovis was seeded in growth media (Middlebrook 7H9 + GAT) and incubated at 37C. Periodically an aliquot from the culture was drawn and placed in a microfluidic cassette containing a thin capillary channel with two gold electrodes 1 cm apart. When high frequency AC potential is applied, charges tend to accumulate at the membranes of any living cells in the sample between the electrodes. These accumulated charges contribute to the “bulk capacitance” (Cb) of the suspension (distinct from the electrode/electrolyte interfacial capacitance). </p>
+                     <p>Control samples (with no mycobacteria) do not show any increase in Cb over time. On the other hand, samples containing mycobacteria show a gradual increase in Cb over time, with significant differences from the baseline (time t=0) value seen when concentrations in the suspension reached 104-105 CFU/ml (as determined from plate counts of aliquots taken at the same time as those used for impedance “scans”). This “threshold concentration” of 104-105 CFU/ml compares very favorably with those of existing culture based methods (107-108 CFU/ml), and leads us to significantly shorter TTDs
+ </p>
+                     </div>
+                    
+                     <div class="col-md-5 col-md-offset-1" id="summary"> 
+                  <div style="text-align:center;">
+                      <button onclick="playPause()">play/pause</button> 
+                      
+                      <br /> 
+    <video id="video1" width="420" style="margin-top:15px;">
+    <source src="The Mizzou Advantage- ImpeDX Diagnostics- Dr. Shramik Sengupta.mp4" type="video/mp4" />
     
+    Your browser does not support HTML5 video.
+  </video>
+</div> 
+                
+                    </div>
+                    </div>
+        </div>
+    </section>
+     <!--research section-->
     
     
     
@@ -343,7 +226,7 @@ text-align:center;
       style="width: 60%;">
       <span class="sr-only">30% 完成（信息）</span>
    </div>
-    <span class="progress-type">  C</span>
+    <span class="progress-type">  Subculture</span>
 </div>
             
 <div class="progress progress-striped">
@@ -352,7 +235,7 @@ text-align:center;
       style="width: 40%;">
       <span class="sr-only">20% 完成（警告）</span>
    </div>
-    <span class="progress-type">  HTML</span>
+    <span class="progress-type">  C</span>
 </div>
             
 <div class="progress progress-striped">
@@ -361,7 +244,7 @@ text-align:center;
       style="width: 10%;">
       <span class="sr-only">10% 完成（危险）</span>
    </div>
-    <span class="progress-type">  Java</span>
+    <span class="progress-type">  HTML</span>
 </div>
             
             <div class="progress progress-striped">
@@ -415,12 +298,6 @@ text-align:center;
 </div>
 	
 
-            
-            
-
-    
-    
-    
    
   
           <ul class="social_links">
@@ -438,7 +315,7 @@ text-align:center;
               
             <li class=""><a href="https://www.facebook.com/zhongyu0221" target ="https://www.facebook.com/zhongyu0221"><i class="fa fa-facebook"></i></a>   Facebook</li>
       
-            <li class=""><a href="https://www.facebook.com/zhongyu0221" target ="https://www.facebook.com/zhongyu0221"><i class="fa fa-weixin"></i></a> zooooooooooe</li>
+            <li class=""><i class="fa fa-weixin"></i> zooooooooooe</li>
 
               
           </ul>
@@ -458,10 +335,42 @@ text-align:center;
 	<button id="login">Login</button>
 	<button id="logout">Logout</button>
 	<button id="get">Get Content</button>
-        
- 
-    </section>
     
+    </section>
+     <!--log in section-->
+    
+    
+    
+    
+     <!--GET in section-->
+    
+ <form action = "<?php $_PHP_SELF ?>" method = "GET">
+         You can change the URL here: <input type = "text" name = "ChangeURL" />
+        
+         <input type = "submit" />
+      </form>
+<!--GET in section-->
+    
+    <script>
+   <?php
+   if( $_GET["name"]  ) {
+      echo "Welcome ". $_GET['name']. "<br />";
+     
+      exit();
+   }
+?>
+    </script>
+    
+    
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $.get("demo_test.asp", function(data, status){
+            alert("Data: " + data + "\nStatus: " + status);
+        });
+    });
+});
+</script>
     
 	<script src="js/jquery-1.10.2.min.js"></script>
         
@@ -499,19 +408,38 @@ text-align:center;
 			},
 			function(data){
 				$('#stage').html(data);
+  
+       
 			});
 		});
 	});
 	</script>
+    
+<script type="text/javascript">
+var myVideo=document.getElementById("video1");
+
+function playPause()
+{ 
+if (myVideo.paused) 
+  myVideo.play(); 
+else 
+  myVideo.pause(); 
+} 
+</script> 
+
+
 
        
 
 <!--log in section-->
     
+    
+    
 </body>
     
-    
-    
+
+    <div class="footer_bottom"><span>© 2016 Zhongyu Li | <a href="resume-cn.php">Switch to Chinese</a>. </span> </div>
+ 
     
 </html>
     
